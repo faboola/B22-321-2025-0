@@ -1,0 +1,61 @@
+/* -------------------------------------------------------------------------- */
+/*                               ELEMENTI FIGLI                               */
+/* -------------------------------------------------------------------------- */
+
+.box {
+    padding: 1rem;
+}
+.box-1 {
+    background-color: red;
+}
+
+.box-2 {
+    background-color: green;
+    height: 8rem;
+}
+
+.box-3 {
+    background-color: blue;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                          ELEMENTO GENITORE FLEXBOX                         */
+/* -------------------------------------------------------------------------- */
+
+.flex-container {
+
+
+    display: flex;
+    height: 100vh; /*per provare il cross axis*/
+
+    /* DISPORRE SUL MAIN AXIS (orizzontale) */
+
+    justify-content: flex-start; /*proprietà di default*/
+
+    justify-content: center; /*dispone al centro */
+
+    justify-content: flex-end; /*dispone a destra */
+
+    justify-content: space-between; /*disponi più lontano tra loro*/
+
+    justify-content: space-evenly; /*disponi in modo proporzionato */
+
+    justify-content: space-around; /*distribuisci lo spazio equamente */
+
+
+    /*DISPORRE SUL CROSS-AXIS (verticale)*/
+
+    align-items: stretch; /*proprietà di default*/
+    align-items: flex-start; /* disponi in alto (all'inizio del cross-axis) */
+    align-items: flex-end; /* disponi in fondo */
+
+    align-items: center; /*disponi al centro */
+
+
+
+    /* flex-direction:  row ; roprietà di default*/
+    /* flex-direction: column; inverte gli assi */
+
+
+}
+

@@ -1,0 +1,15 @@
+.box-pixel {
+    background-color: rgb(36, 36, 101);
+    width: 1000px;
+    color: white;
+}
+
+.box {
+    background-color: rgb(255, 0, 174);
+    width: 50%;
+}
+
+.box-child {
+    background-color: rgb(0, 152, 38);
+    width: 50%;
+}
