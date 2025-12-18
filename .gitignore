@@ -1,0 +1,6 @@
+# .gitignore for GitHub
+# Exclude VS Code settings
+.vscode/
+
+# Exclude node_modules
+node_modules/
