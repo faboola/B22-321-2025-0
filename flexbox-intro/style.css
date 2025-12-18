@@ -59,3 +59,53 @@
 
 }
 
+
+/* -------------------------------------------------------------------------- */
+/*                             PROPRIETA DEI FIGLI                            */
+/* -------------------------------------------------------------------------- */
+
+.flex-parent {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    border:1px solid black;
+}
+
+.flex-child {
+    padding: 1rem;
+}
+
+.flex-child-1   {
+    background-color: red;
+}
+
+.flex-child-2 {
+    background-color: green;
+}
+
+.flex-child-3 {
+    background-color: blue;
+}
+
+/*ORDER: cambio l'ordine di apparizione direttamente da CSS*/
+
+.flex-child-2 {
+
+    /*sposto dopo gli altri che hanno 0 di default*/
+    /* order:1; */
+    /*sposto PRIMA degli altri che hanno 0 di default */
+    /* order:-1; */
+
+}
+
+/* FLEX GROW: per far crescere gli elementi  */
+
+.flex-child-2 {
+    flex-grow: 1; /*forza l'elemento ad occupare lo spazio disponibile */
+}
+
+/* ALIGN-SELF */
+.flex-child-2 {
+    align-self: flex-end;
+    /*per spostare in posizioni diverse*/
+}
